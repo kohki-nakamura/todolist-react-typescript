@@ -22,7 +22,7 @@ function App() {
 
     const newTodo: Todo = {
       inputValue: inputValue,
-      id: inputValue.length,
+      id: todos.length,
       checked: false,
     }
     setTodos([...todos, newTodo]);
